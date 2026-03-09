@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dr. Ellen Jolley - Postdoctoral Researcher</title>
+    <title>Dr. Ellen Jolley - Research Fellow</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -21,7 +21,8 @@
     </nav>
 
     <!-- Hero Section -->
-    <header class="hero">
+     <header class="hero" style="background-image:url('assets/hero.jpg');">
+        <div class="hero-overlay"></div>
         <div class="container">
             <div class="hero-content">
                 <h1>Dr. Ellen Jolley</h1>
@@ -38,6 +39,8 @@
             <div class="container">
                 <h2>About</h2>
                 <div class="about-content">
+
+                    <img class="profile" src="assets/profile.jpeg"/>
                     <p>
                         I am a Research Fellow at Mathematics Institute, University of Warwick, in Prof. Tom Montenegro-Johnson's group.
                          My research focuses on using asymptotic methods for industrial and biological applications.
@@ -56,15 +59,15 @@
                 <div class="research-grid">
                     <div class="research-item">
                         <h3>Aircraft icing</h3>
-                        <p>Description of your first research focus and its importance.</p>
+                        <p>Modelling the motion of ice particles in high speed flow near aircraft surfaces.</p>
                     </div>
                     <div class="research-item">
-                        <h3>Regenerative medicine</h3>
-                        <p>Description of your second research focus and methodological approach.</p>
+                        <h3>Viscoelastic fluids</h3>
+                        <p>Modelling the behaviour of viscoelastic droplets in Newtonian flow, with a view to understanding cell mechanics. </p>
                     </div>
                     <div class="research-item">
                         <h3>Hydrogel mechanics</h3>
-                        <p>Description of your third research focus and potential applications.</p>
+                        <p>Modelling how hydrogels (soft, hydrophilic, porous materials) swell when adhered to surfaces or otherwise confined.</p>
                     </div>
                 </div>
             </div>
@@ -74,11 +77,8 @@
         <section id="publications" class="section">
             <div class="container">
                 <h2>Publications</h2>
-                <div class="publications-list">
-                    <div class="publication">
-                        <p class="publication-title">
-                            <strong>Article Title Here</strong>
-                        </p>
+                <div class="publications-list" id="publications-list">
+                    <!-- <div class="publication">
                         <p class="publication-details">
                             Your Name, Co-Author 1, Co-Author 2. <em>Journal Name</em>, Vol. XX, pp. XXX-XXX (Year).
                             <a href="#" class="doi-link">DOI: 10.xxxx/xxxxx</a>
@@ -86,9 +86,6 @@
                     </div>
 
                     <div class="publication">
-                        <p class="publication-title">
-                            <strong>Another Article Title</strong>
-                        </p>
                         <p class="publication-details">
                             Your Name, Co-Author 1. <em>Journal Name</em>, Vol. XX, pp. XXX-XXX (Year).
                             <a href="#" class="doi-link">DOI: 10.xxxx/xxxxx</a>
@@ -96,20 +93,19 @@
                     </div>
 
                     <div class="publication">
-                        <p class="publication-title">
-                            <strong>Conference Paper Title</strong>
-                        </p>
                         <p class="publication-details">
                             Your Name, Co-Author 1, Co-Author 2, Co-Author 3. Proceedings of [Conference Name], (Year).
                             <a href="#" class="doi-link">DOI: 10.xxxx/xxxxx</a>
                         </p>
                     </div>
+                </div> -->
                 </div>
                 <p class="more-publications">
                     For a complete list, visit my 
-                    <a href="https://scholar.google.com" target="_blank">Google Scholar profile</a> or 2
-                    <a href="https://orcid.org" target="_blank">ORCID page</a>.
+                    <a href="https://scholar.google.com/citations?user=BtnlLuYAAAAJ&hl=en" target="_blank">Google Scholar profile</a> or
+                    <a href="https://orcid.org/0000-0003-0066-5494" target="_blank">ORCID page</a>.
                 </p>
+            
             </div>
         </section>
 
@@ -120,19 +116,12 @@
                 <div class="contact-info">
                     <p>
                         <strong>Email:</strong> 
-                        <a href="mailto:your.email@institution.edu">your.email@institution.edu</a>
+                        <a href="mailto:ellen.jolley@warwick.ac.uk">ellen.jolley@warwick.ac.uk</a>
                     </p>
                     <p>
                         <strong>Office:</strong> 
-                        Room XXX, Building Name<br>
-                        [Your Institution]<br>
-                        [City, State/Country]
-                    </p>
-                    <p>
-                        <strong>Links:</strong><br>
-                        <a href="https://twitter.com" target="_blank" class="social-link">Twitter</a> | 
-                        <a href="https://github.com" target="_blank" class="social-link">GitHub</a> | 
-                        <a href="https://linkedin.com" target="_blank" class="social-link">LinkedIn</a>
+                        Room C2.08, Zeeman Building<br>
+                        University of Warwick<br>
                     </p>
                 </div>
             </div>
@@ -142,8 +131,12 @@
     <!-- Footer -->
     <footer>
         <div class="container">
-            <p>&copy; 2026 Dr. [Your Name]. All rights reserved.</p>
+            <p>&copy; 2026 Dr. Ellen Jolley. All rights reserved.</p>
         </div>
     </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bibtex-parse-js@1.0.0/dist/bibtexParse.min.js"></script>
+<script src="publications.js"></script>
 </body>
 </html>

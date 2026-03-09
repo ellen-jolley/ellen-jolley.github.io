@@ -10,7 +10,8 @@
 :root {
     --primary-color: #1e3a8a;
     --primary-dark: #1e40af;
-    --accent-color: #0ea5e9;
+    --accent-color: #2f6dc4;
+    --subtitle-color: #5843ac;
     --text-dark: #1f2937;
     --text-light: #6b7280;
     --bg-light: #f9fafb;
@@ -19,6 +20,8 @@
     --shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
     --shadow-lg: 0 10px 25px 0 rgba(0, 0, 0, 0.1);
 }
+
+
 
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
@@ -146,12 +149,24 @@ strong {
 /* ========================================
    Hero Section
    ======================================== */
-.hero {
-    background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-dark) 100%);
-    color: white;
-    padding: 6rem 0;
-    text-align: center;
+/* ...existing code... */
+.hero{
+    position:relative;
+    height:50vh;
+    min-height:360px;
+    max-height:600px;
+    display:flex;
+    align-items:center;
+    justify-content:flex-start;
+    padding:2rem 1rem;
+    background-size:cover;        /* show full image without cropping */
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-color:#0a5fa8;       /* fallback to fill gaps from aspect mismatch */
+    color:#fff;
+    overflow:hidden;
 }
+/* ...existing code... */
 
 .hero-content h1 {
     color: white;
@@ -160,13 +175,13 @@ strong {
 
 .subtitle {
     font-size: 1.5rem;
-    color: var(--accent-color);
+    color: var(--subtitle-color);
     margin-bottom: 0.5rem;
 }
 
 .institution {
     font-size: 1.1rem;
-    color: rgba(255, 255, 255, 0.9);
+    color: var(--subtitle-color);
     margin-bottom: 0;
 }
 
@@ -188,17 +203,48 @@ section {
 /* ========================================
    About Section
    ======================================== */
+
+
 .about-content {
-    max-width: 800px;
-    margin: 0 auto;
+    overflow: hidden;      /* contain the floated image */
     font-size: 1.05rem;
-    line-height: 1.8;
+    line-height: 1.7;
+    margin-top: 1rem;
 }
 
-.about-content p {
-    margin-bottom: 1.5rem;
-    text-align: justify;
+/* profile image: float so text wraps, keep aspect ratio and limit size */
+.about-content img.profile {
+    float: left;
+    width: 400px;          /* adjust desired display width */
+    max-width: 35%;
+    height: auto;          /* preserve aspect ratio */
+    margin: 0 1rem 1rem 0;
+    border-radius: 6px;
+    object-fit: cover;
 }
+
+/* ensure paragraphs flow and don't force columns */
+.about-content p {
+    margin-bottom: 1rem;
+}
+
+/* small screens: stack image above text */
+@media (max-width: 600px) {
+    .about-content {
+        display: block;
+        text-align: center;
+    }
+    .about-content img.profile {
+        float: none;
+        display: block;
+        margin: 0 auto 1rem;
+        width: 110px;
+        max-width: 40%;
+    }
+}
+/* ...existing code... */
+
+
 
 /* ========================================
    Research Section
@@ -237,24 +283,22 @@ section {
 }
 
 .publication {
-    padding: 1.5rem;
-    margin-bottom: 2rem;
-    border-left: 4px solid var(--accent-color);
-    background-color: var(--bg-light);
+    /* padding: 1.5rem; */
+    /* margin-bottom: 2rem; */
     border-radius: 4px;
     transition: all 0.3s ease;
 }
 
-.publication:hover {
+/* .publication:hover {
     box-shadow: var(--shadow-lg);
     transform: translateX(4px);
-}
+} */
 
-.publication-title {
+/* .publication-title {
     margin-bottom: 0.75rem;
     font-size: 1.1rem;
     color: var(--text-dark);
-}
+} */
 
 .publication-details {
     color: var(--text-light);
