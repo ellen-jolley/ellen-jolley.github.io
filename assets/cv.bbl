@@ -1,0 +1,373 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{ydnt/global//global/global/global}
+    \entry{tom}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=1d6a073e51dd7841acb60f32452ba5e6}{%
+           family={Jolley},
+           familyi={J\bibinitperiod},
+           given={E.\bibnamedelimi M.},
+           giveni={E\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=1c2c2f15ba7bc78d9d17d85a1c4e0c06}{%
+           family={Montenegro-Johnson},
+           familyi={M\bibinithyphendelim J\bibinitperiod},
+           given={T.\bibnamedelimi D.},
+           giveni={T\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \strng{namehash}{aa11cbf554e5247575350ba18ba45f88}
+      \strng{fullhash}{aa11cbf554e5247575350ba18ba45f88}
+      \strng{fullhashraw}{aa11cbf554e5247575350ba18ba45f88}
+      \strng{bibnamehash}{aa11cbf554e5247575350ba18ba45f88}
+      \strng{authorbibnamehash}{aa11cbf554e5247575350ba18ba45f88}
+      \strng{authornamehash}{aa11cbf554e5247575350ba18ba45f88}
+      \strng{authorfullhash}{aa11cbf554e5247575350ba18ba45f88}
+      \strng{authorfullhashraw}{aa11cbf554e5247575350ba18ba45f88}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Submitted}
+      \field{title}{An asymptotic description of confined hydrogel swelling.}
+      \field{year}{2026}
+      \true{nocite}
+    \endentry
+    \entry{sarah}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=1d6a073e51dd7841acb60f32452ba5e6}{%
+           family={Jolley},
+           familyi={J\bibinitperiod},
+           given={E.\bibnamedelimi M.},
+           giveni={E\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=851ae8d2594f551bf9aa98197c569909}{%
+           family={Oliver},
+           familyi={O\bibinitperiod},
+           given={J.\bibnamedelimi M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=df20c20caf5fa8856a3dd62b2690e7f1}{%
+           family={Waters},
+           familyi={W\bibinitperiod},
+           given={S.\bibnamedelimi L.},
+           giveni={S\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \strng{namehash}{139c0a760c0b9ee75db29f268652e64a}
+      \strng{fullhash}{139c0a760c0b9ee75db29f268652e64a}
+      \strng{fullhashraw}{139c0a760c0b9ee75db29f268652e64a}
+      \strng{bibnamehash}{139c0a760c0b9ee75db29f268652e64a}
+      \strng{authorbibnamehash}{139c0a760c0b9ee75db29f268652e64a}
+      \strng{authornamehash}{139c0a760c0b9ee75db29f268652e64a}
+      \strng{authorfullhash}{139c0a760c0b9ee75db29f268652e64a}
+      \strng{authorfullhashraw}{139c0a760c0b9ee75db29f268652e64a}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Preprint available on request.}
+      \field{title}{A model viscoelastic cell translating in Newtonian tube flow.}
+      \field{year}{2026}
+      \true{nocite}
+    \endentry
+    \entry{sarah2}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=1d6a073e51dd7841acb60f32452ba5e6}{%
+           family={Jolley},
+           familyi={J\bibinitperiod},
+           given={E.\bibnamedelimi M.},
+           giveni={E\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=851ae8d2594f551bf9aa98197c569909}{%
+           family={Oliver},
+           familyi={O\bibinitperiod},
+           given={J.\bibnamedelimi M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=df20c20caf5fa8856a3dd62b2690e7f1}{%
+           family={Waters},
+           familyi={W\bibinitperiod},
+           given={S.\bibnamedelimi L.},
+           giveni={S\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \strng{namehash}{139c0a760c0b9ee75db29f268652e64a}
+      \strng{fullhash}{139c0a760c0b9ee75db29f268652e64a}
+      \strng{fullhashraw}{139c0a760c0b9ee75db29f268652e64a}
+      \strng{bibnamehash}{139c0a760c0b9ee75db29f268652e64a}
+      \strng{authorbibnamehash}{139c0a760c0b9ee75db29f268652e64a}
+      \strng{authornamehash}{139c0a760c0b9ee75db29f268652e64a}
+      \strng{authorfullhash}{139c0a760c0b9ee75db29f268652e64a}
+      \strng{authorfullhashraw}{139c0a760c0b9ee75db29f268652e64a}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Preprint available on request.}
+      \field{title}{A viscoelastic droplet with high viscosity in oscillating flow}
+      \field{year}{2026}
+      \true{nocite}
+    \endentry
+    \entry{jolley2024melting}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=1d6a073e51dd7841acb60f32452ba5e6}{%
+           family={Jolley},
+           familyi={J\bibinitperiod},
+           given={E.\bibnamedelimi M.},
+           giveni={E\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=688a706f078423c796b98eaddde59fea}{%
+           family={Dang},
+           familyi={D\bibinitperiod},
+           given={T.\bibnamedelimi D.},
+           giveni={T\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=628023d92841b19a84ddeeb32429d2de}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={F.\bibnamedelimi T.},
+           giveni={F\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+      }
+      \strng{namehash}{11cd4949b2984afa172f4ad95a21a7c1}
+      \strng{fullhash}{11cd4949b2984afa172f4ad95a21a7c1}
+      \strng{fullhashraw}{11cd4949b2984afa172f4ad95a21a7c1}
+      \strng{bibnamehash}{11cd4949b2984afa172f4ad95a21a7c1}
+      \strng{authorbibnamehash}{11cd4949b2984afa172f4ad95a21a7c1}
+      \strng{authornamehash}{11cd4949b2984afa172f4ad95a21a7c1}
+      \strng{authorfullhash}{11cd4949b2984afa172f4ad95a21a7c1}
+      \strng{authorfullhashraw}{11cd4949b2984afa172f4ad95a21a7c1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proc. Royal Soc. A}
+      \field{number}{2286}
+      \field{title}{Melting of wall-mounted ice in shear flow.}
+      \field{volume}{480}
+      \field{year}{2024}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://doi.org/10.1098/rspa.2023.0688
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1098/rspa.2023.0688
+      \endverb
+    \endentry
+    \entry{particleinwater}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=1d6a073e51dd7841acb60f32452ba5e6}{%
+           family={Jolley},
+           familyi={J\bibinitperiod},
+           given={E.\bibnamedelimi M.},
+           giveni={E\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=628023d92841b19a84ddeeb32429d2de}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={F.\bibnamedelimi T.},
+           giveni={F\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+      }
+      \strng{namehash}{89dabcfdd1192c43b93db35e7fcee5d2}
+      \strng{fullhash}{89dabcfdd1192c43b93db35e7fcee5d2}
+      \strng{fullhashraw}{89dabcfdd1192c43b93db35e7fcee5d2}
+      \strng{bibnamehash}{89dabcfdd1192c43b93db35e7fcee5d2}
+      \strng{authorbibnamehash}{89dabcfdd1192c43b93db35e7fcee5d2}
+      \strng{authornamehash}{89dabcfdd1192c43b93db35e7fcee5d2}
+      \strng{authorfullhash}{89dabcfdd1192c43b93db35e7fcee5d2}
+      \strng{authorfullhashraw}{89dabcfdd1192c43b93db35e7fcee5d2}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Physics of Fluids}
+      \field{number}{10}
+      \field{title}{Free movement of a near-wall particle in fluid of comparable density.}
+      \field{volume}{36}
+      \field{year}{2024}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://doi.org/10.1063/5.0229134
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1063/5.0229134
+      \endverb
+    \endentry
+    \entry{waterlayer}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=1d6a073e51dd7841acb60f32452ba5e6}{%
+           family={Jolley},
+           familyi={J\bibinitperiod},
+           given={E.\bibnamedelimi M.},
+           giveni={E\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=628023d92841b19a84ddeeb32429d2de}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={F.\bibnamedelimi T.},
+           giveni={F\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+      }
+      \strng{namehash}{89dabcfdd1192c43b93db35e7fcee5d2}
+      \strng{fullhash}{89dabcfdd1192c43b93db35e7fcee5d2}
+      \strng{fullhashraw}{89dabcfdd1192c43b93db35e7fcee5d2}
+      \strng{bibnamehash}{89dabcfdd1192c43b93db35e7fcee5d2}
+      \strng{authorbibnamehash}{89dabcfdd1192c43b93db35e7fcee5d2}
+      \strng{authornamehash}{89dabcfdd1192c43b93db35e7fcee5d2}
+      \strng{authorfullhash}{89dabcfdd1192c43b93db35e7fcee5d2}
+      \strng{authorfullhashraw}{89dabcfdd1192c43b93db35e7fcee5d2}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Physics of Fluids}
+      \field{number}{4}
+      \field{title}{Interactions between a heavy particle, air, and a layer of liquid.}
+      \field{volume}{35}
+      \field{year}{2023}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://doi.org/10.1063/5.0145552
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1063/5.0145552
+      \endverb
+    \endentry
+    \entry{smith2023modelling}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=628023d92841b19a84ddeeb32429d2de}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={F.\bibnamedelimi T.},
+           giveni={F\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=1d6a073e51dd7841acb60f32452ba5e6}{%
+           family={Jolley},
+           familyi={J\bibinitperiod},
+           given={E.\bibnamedelimi M.},
+           giveni={E\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=e3ea64b9a462fc88ea29a3463fb440d1}{%
+           family={Palmer},
+           familyi={P\bibinitperiod},
+           given={R.\bibnamedelimi A.},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{3ce9c80d65535331f08cde789e391fee}
+      \strng{fullhash}{3ce9c80d65535331f08cde789e391fee}
+      \strng{fullhashraw}{3ce9c80d65535331f08cde789e391fee}
+      \strng{bibnamehash}{3ce9c80d65535331f08cde789e391fee}
+      \strng{authorbibnamehash}{3ce9c80d65535331f08cde789e391fee}
+      \strng{authornamehash}{3ce9c80d65535331f08cde789e391fee}
+      \strng{authorfullhash}{3ce9c80d65535331f08cde789e391fee}
+      \strng{authorfullhashraw}{3ce9c80d65535331f08cde789e391fee}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Acta Mechanica Sinica}
+      \field{number}{5}
+      \field{title}{On modelling fluid/body interactions, impacts and lift-offs.}
+      \field{volume}{39}
+      \field{year}{2023}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/s10409-023-23019-x
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/s10409-023-23019-x
+      \endverb
+    \endentry
+    \entry{jfmpaper}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=1d6a073e51dd7841acb60f32452ba5e6}{%
+           family={Jolley},
+           familyi={J\bibinitperiod},
+           given={E.\bibnamedelimi M.},
+           giveni={E\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=628023d92841b19a84ddeeb32429d2de}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={F.\bibnamedelimi T.},
+           giveni={F\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+      }
+      \strng{namehash}{89dabcfdd1192c43b93db35e7fcee5d2}
+      \strng{fullhash}{89dabcfdd1192c43b93db35e7fcee5d2}
+      \strng{fullhashraw}{89dabcfdd1192c43b93db35e7fcee5d2}
+      \strng{bibnamehash}{89dabcfdd1192c43b93db35e7fcee5d2}
+      \strng{authorbibnamehash}{89dabcfdd1192c43b93db35e7fcee5d2}
+      \strng{authornamehash}{89dabcfdd1192c43b93db35e7fcee5d2}
+      \strng{authorfullhash}{89dabcfdd1192c43b93db35e7fcee5d2}
+      \strng{authorfullhashraw}{89dabcfdd1192c43b93db35e7fcee5d2}
+      \field{extraname}{3}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{J. Fluid Mech.}
+      \field{number}{A37}
+      \field{title}{A heavy body translating in a boundary layer: ‘crash’, ‘fly away’ and ‘bouncing’ responses.}
+      \field{volume}{936}
+      \field{year}{2022}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://doi.org/10.1017/jfm.2022.93
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1017/jfm.2022.93
+      \endverb
+    \endentry
+    \entry{jempaper}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=1d6a073e51dd7841acb60f32452ba5e6}{%
+           family={Jolley},
+           familyi={J\bibinitperiod},
+           given={E.\bibnamedelimi M.},
+           giveni={E\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=e3ea64b9a462fc88ea29a3463fb440d1}{%
+           family={Palmer},
+           familyi={P\bibinitperiod},
+           given={R.\bibnamedelimi A.},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=628023d92841b19a84ddeeb32429d2de}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={F.\bibnamedelimi T.},
+           giveni={F\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+      }
+      \strng{namehash}{d05692cd9beae8ef6864c0490e693307}
+      \strng{fullhash}{d05692cd9beae8ef6864c0490e693307}
+      \strng{fullhashraw}{d05692cd9beae8ef6864c0490e693307}
+      \strng{bibnamehash}{d05692cd9beae8ef6864c0490e693307}
+      \strng{authorbibnamehash}{d05692cd9beae8ef6864c0490e693307}
+      \strng{authornamehash}{d05692cd9beae8ef6864c0490e693307}
+      \strng{authorfullhash}{d05692cd9beae8ef6864c0490e693307}
+      \strng{authorfullhashraw}{d05692cd9beae8ef6864c0490e693307}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{J. Eng. Math.}
+      \field{number}{6}
+      \field{title}{Particle movement in a boundary layer.}
+      \field{volume}{128}
+      \field{year}{2021}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/s10665-021-10121-7
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/s10665-021-10121-7
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
